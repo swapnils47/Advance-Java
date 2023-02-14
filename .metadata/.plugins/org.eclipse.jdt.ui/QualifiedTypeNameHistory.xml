@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreding.thread.MyThread1"/>
+    <fullyQualifiedTypeName name="com.jspider.multithreding.thread.MyThread2"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.MyThread2"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.MyThread1"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.resource.Account"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.Wife"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingproperties.thread.Husband"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingpropertieswaitandnotify.resource.Pizza"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingpropertieswaitandnotify.thread.Dominos"/>
+    <fullyQualifiedTypeName name="com.jspiders.multithreadingpropertieswaitandnotify.thread.Friends"/>
+    <fullyQualifiedTypeName name="com.jspiders.filehandling.info.FileInfoDemo1"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="com.jspiders.serializationdeserialization.object.User"/>
+    <fullyQualifiedTypeName name="com.jspiders.singleton.object.SingletonLazy"/>
+    <fullyQualifiedTypeName name="com.jspiders.singleton.object.SingletonEager"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.object.MasalaTea"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.bevarage.Bevarage"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.object.Tea"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.object.BlackTea"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory.object.LemonTea"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory1.mobile.Mobile"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory1.object.SamsungS23"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory1.object.Pixel7"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory1.object.OnePlus11"/>
+    <fullyQualifiedTypeName name="com.jspiders.factory1.object.Nothing1"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderdesignpattern.builder.ContactBuilder"/>
+    <fullyQualifiedTypeName name="com.jspiders.builderdesignpattern.object.Contact"/>
+    <fullyQualifiedTypeName name="com.jspiders.designpatterntask1.resource.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,21 @@
+package com.jspiders.designpatterntask1.object;
+
+import com.jspiders.designpatterntask1.resource.Account;
+
+public class Deposit {
+
+	 private int depositAmount;
+
+	  Deposit(int depositAmount) {
+	    this.depositAmount = depositAmount;
+	  }
+
+	  public void depositMoney() {
+	    Account account = Account.getInstance();
+	    int accountBalance = account.getAccountBalance();
+	    accountBalance += depositAmount;
+	    account.setAccountBalance(accountBalance);
+	    System.out.println("Amount deposited: " + depositAmount);
+	    System.out.println("Available balance: " + account.getAccountBalance());
+	  }
+}

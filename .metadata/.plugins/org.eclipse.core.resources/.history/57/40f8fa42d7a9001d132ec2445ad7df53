@@ -1,0 +1,23 @@
+package com.jspiders.designpatterntask1.object;
+
+import com.jspiders.designpatterntask1.resource.Account;
+
+public class Withdraw {
+
+	 private int withdrawAmount;
+
+	  public Withdraw(int withdrawAmount) {
+	    this.withdrawAmount = withdrawAmount;
+	  }
+
+	  public void subtractFromAccountBalance() {
+	    Account account = Account.getInstance();
+	    int currentBalance = account.getAccountBalance();
+	    if (currentBalance < this.withdrawAmount) {
+	      System.out.println("Insufficient balance. Withdrawal failed.");
+	    } else {
+	      account.setAccountBalance(currentBalance - this.withdrawAmount);
+	      System.out.println("Withdrawal of " + this.withdrawAmount + " successful. Current balance: " + account.getAccountBalance());
+	    }
+	  }
+}

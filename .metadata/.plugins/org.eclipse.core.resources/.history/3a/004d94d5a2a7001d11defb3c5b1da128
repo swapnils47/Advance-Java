@@ -1,0 +1,10 @@
+package com.jspiders.factory.object;
+
+public class Tea {
+
+	public Tea() {
+		System.out.println("Tea Ordered");
+	}
+
+	
+}

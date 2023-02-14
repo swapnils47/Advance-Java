@@ -1,0 +1,63 @@
+package com.jspiders.builderdesignpattern.builder;
+
+public class ContactBuilder {
+
+	private String first_name;
+	private String middel_name;
+	private String last_name;
+	private String nickname;
+	private String email;
+	private long mobile_no;
+	private long landline_no;
+	private String dob;
+	private String company;
+	private String address;
+	private String gender;
+	
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	public ContactBuilder first_name(String first_name) {
+		this.first_name=first_name;
+		return  this;
+	}
+	
+	
+}

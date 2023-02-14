@@ -1,0 +1,11 @@
+package com.jspiders.factory.object;
+
+public class LemonTea {
+
+	public LemonTea() {
+		
+		
+	}
+
+	
+}

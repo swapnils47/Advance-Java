@@ -1,0 +1,11 @@
+package com.jspiders.factory.object;
+
+public class MasalaTea {
+
+	public MasalaTea() {
+		System.out.println("MasalaTea Ordered");
+	}
+
+	
+	
+}

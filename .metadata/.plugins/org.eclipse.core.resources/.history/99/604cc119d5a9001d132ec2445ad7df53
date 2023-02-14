@@ -1,0 +1,5 @@
+package com.jspiders.designpatterntask1.object;
+
+public class Withdraw {
+
+}

@@ -1,0 +1,21 @@
+package com.jspiders.factory1.main;
+
+import com.jspiders.factory1.mobile.Mobile;
+
+public class MobileFactory {
+
+	static Mobile mobile;
+	public static void main(String[] args) {
+		
+		try {
+			factory().order();
+		} catch (NullPointerException e) {
+			System.out.println("No Mobile Selected");
+		}
+	}
+	
+	private static Mobile factory() {
+		
+		System.out.println();
+	}
+}

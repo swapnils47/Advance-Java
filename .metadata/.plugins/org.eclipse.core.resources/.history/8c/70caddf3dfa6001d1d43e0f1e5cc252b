@@ -1,0 +1,11 @@
+package com.jspiders.factory.object;
+
+public class BlackTea {
+
+	public BlackTea() {
+		System.out.println("ShevBhaji Ordered");
+	}
+	
+	
+
+}

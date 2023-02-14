@@ -1,0 +1,44 @@
+package com.jspiders.designpatterntask1.main;
+
+import java.util.Scanner;
+
+import com.jspiders.designpatterntask1.object.CheckBalance;
+import com.jspiders.designpatterntask1.object.Deposit;
+import com.jspiders.designpatterntask1.object.Withdraw;
+
+public class AccountMain {
+
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int choice;
+	    do {
+	      System.out.println("1. Check balance");
+	      System.out.println("2. Deposit");
+	      System.out.println("3. Withdraw");
+	      System.out.println("4. Exit");
+	      System.out.print("Enter your choice: ");
+	      choice = sc.nextInt();
+	      switch (choice) {
+	        case 1:
+	          new CheckBalance().displayAccountBalance();
+	          break;
+	        case 2:
+	          System.out.print("Enter the amount to be deposited: ");
+	          int depositAmount = sc.nextInt();
+	          new Deposit(depositAmount).depositMoney();
+	          break;
+	        case 3:
+	          System.out.print("Enter the amount to be withdrawn: ");
+	          int withdrawAmount = sc.nextInt();
+	          new Withdraw(withdrawAmount).withdrawMoney();
+	          break;
+	        case 4:
+	          System.out.println("Exiting the program...");
+	          System.exit(0);
+	          break;
+	        default:
+	          System.out.println("Invalid choice, try again");
+	      }
+	    } while (choice != 4);
+	  }
+}
